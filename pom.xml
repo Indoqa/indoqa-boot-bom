@@ -49,8 +49,10 @@
 
     <apache-commons-lang3-version>3.5</apache-commons-lang3-version>
     <apache-commons-io-version>2.5</apache-commons-io-version>
+    <http-client-version>4.5.1</http-client-version>
     <indoqa-spring-version>4.1.0</indoqa-spring-version>
     <indoqa-http-proxy-version>1.0.0</indoqa-http-proxy-version>
+    <indoqa-jar-in-jar-version>1.0.1</indoqa-jar-in-jar-version>
     
     <slf4j-version>1.7.21</slf4j-version>
     <commons-logging-version>99.0-does-not-exist</commons-logging-version>
@@ -58,6 +60,7 @@
 
     <junit-version>4.12</junit-version>
     <mockito-version>2.2.26</mockito-version>
+    <indoqa-system-test-tools-version>0.1.0-SNAPSHOT</indoqa-system-test-tools-version>
   </properties>
 
   <dependencyManagement>
@@ -206,12 +209,17 @@
         <artifactId>indoqa-spring</artifactId>
         <version>${indoqa-spring-version}</version>
       </dependency>
-
+      
       <!-- HTTP Proxy -->
       <dependency>
         <groupId>com.indoqa</groupId>
         <artifactId>http-proxy</artifactId>
         <version>${indoqa-http-proxy-version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.httpcomponents</groupId>
+        <artifactId>httpclient</artifactId>
+        <version>${http-client-version}</version>
       </dependency>
       
       <!-- Slf4j API -->
@@ -255,21 +263,38 @@
         <scope>runtime</scope>
       </dependency>
 
+      <!-- Jar-in-Jar -->
+      <dependency>
+        <groupId>com.indoqa</groupId>
+        <artifactId>jar-in-jar</artifactId>
+        <version>${indoqa-jar-in-jar-version}</version>
+        <scope>runtime</scope>   
+      </dependency>
+
       <!-- Test dependencies -->
       <dependency>
         <groupId>junit</groupId>
         <artifactId>junit</artifactId>
         <version>${junit-version}</version>
+        <scope>test</scope>
       </dependency>
       <dependency>
         <groupId>org.mockito</groupId>
         <artifactId>mockito-core</artifactId>
         <version>${mockito-version}</version>
+        <scope>test</scope>
       </dependency>   
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-test</artifactId>
         <version>${spring-version}</version>
+        <scope>test</scope>
+      </dependency>
+      <dependency>
+        <groupId>com.indoqa</groupId>
+        <artifactId>system-test-tools</artifactId>
+        <version>${indoqa-system-test-tools-version}</version>      
+        <scope>test</scope>
       </dependency>
     </dependencies>
   </dependencyManagement>
