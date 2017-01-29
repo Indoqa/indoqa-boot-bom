@@ -43,23 +43,23 @@
 
   <properties>
     <spark-version>2.5.4</spark-version>
-    <spring-version>4.3.4.RELEASE</spring-version>
-    <jackson-version>2.8.5</jackson-version>
-    <jetty-version>9.3.14.v20161028</jetty-version>
+    <spring-version>4.3.6.RELEASE</spring-version>
+    <jackson-version>2.8.6</jackson-version>
+    <jetty-version>9.4.1.v20170120</jetty-version>
 
     <apache-commons-lang3-version>3.5</apache-commons-lang3-version>
     <apache-commons-io-version>2.5</apache-commons-io-version>
-    <http-client-version>4.5.1</http-client-version>
+    <http-client-version>4.5.3</http-client-version>
     <indoqa-spring-version>4.1.0</indoqa-spring-version>
     <indoqa-http-proxy-version>1.0.0</indoqa-http-proxy-version>
     <indoqa-jar-in-jar-version>1.0.1</indoqa-jar-in-jar-version>
     
-    <slf4j-version>1.7.21</slf4j-version>
+    <slf4j-version>1.7.22</slf4j-version>
     <commons-logging-version>99.0-does-not-exist</commons-logging-version>
-    <log4j-version>2.7</log4j-version>
+    <log4j-version>2.8</log4j-version>
 
     <junit-version>4.12</junit-version>
-    <mockito-version>2.2.26</mockito-version>
+    <mockito-version>2.7.0</mockito-version>
     <indoqa-system-test-tools-version>0.1.0-SNAPSHOT</indoqa-system-test-tools-version>
   </properties>
 
