@@ -27,7 +27,7 @@
   </parent>
 
   <artifactId>indoqa-boot-bom</artifactId>
-  <version>0.6.0</version>
+  <version>0.6.1-SNAPSHOT</version>
 
   <name>Indoqa Boot BOM</name>
   <url>https://github.com/indoqa/indoqa-boot-bom</url>
@@ -37,7 +37,7 @@
     <connection>scm:git:git@github.com:Indoqa/indoqa-boot-bom.git</connection>
     <developerConnection>scm:git:git@github.com:Indoqa/indoqa-boot-bom.git</developerConnection>
     <url>https://github.com/Indoqa/indoqa-boot-bom</url>
-    <tag>indoqa-boot-bom-0.6.0</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <properties>
