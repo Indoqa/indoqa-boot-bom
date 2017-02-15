@@ -60,7 +60,7 @@
 
     <junit-version>4.12</junit-version>
     <mockito-version>2.7.0</mockito-version>
-    <indoqa-system-test-tools-version>0.1.0-SNAPSHOT</indoqa-system-test-tools-version>
+    <indoqa-system-test-tools-version>1.0.0</indoqa-system-test-tools-version>
   </properties>
 
   <dependencyManagement>
