@@ -1,4 +1,4 @@
-# v0.12.0 | TBD
+# v0.12.0 | 2019-02-13
 * minor dependencies upgrades
 
 # v0.11.0 | 2018-10-12
