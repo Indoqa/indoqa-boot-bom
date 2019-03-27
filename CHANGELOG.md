@@ -1,3 +1,8 @@
+# v0.14.0 | TBA
+
+# v0.13.0 | 2019-03-27
+* minor dependencies upgrades
+
 # v0.12.0 | 2019-02-13
 * minor dependencies upgrades
 
