@@ -41,7 +41,7 @@
 
   <properties>
     <spark-version>2.9.1</spark-version>
-    <spring-version>5.2.3.RELEASE</spring-version>
+    <spring-version>5.3.6</spring-version>
     <jackson-version>2.10.2</jackson-version>
     <jetty-version>9.4.26.v20200117</jetty-version>
 
