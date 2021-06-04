@@ -50,7 +50,7 @@
 
     <apache-commons-lang3-version>3.9</apache-commons-lang3-version>
     <apache-commons-io-version>2.6</apache-commons-io-version>
-    <http-client-version>4.5.9</http-client-version>
+    <http-client-version>4.5.13</http-client-version>
     <indoqa-spring-version>4.1.0</indoqa-spring-version>
     <indoqa-http-proxy-version>1.0.0</indoqa-http-proxy-version>
     <indoqa-jar-in-jar-version>1.0.1</indoqa-jar-in-jar-version>
