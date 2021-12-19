@@ -40,24 +40,24 @@
   </scm>
 
   <properties>
-    <spark-version>2.9.1</spark-version>
-    <spring-version>5.2.3.RELEASE</spring-version>
-    <jackson-version>2.10.2</jackson-version>
-    <jetty-version>9.4.26.v20200117</jetty-version>
+    <spark-version>2.9.3</spark-version>
+    <spring-version>5.3.14</spring-version>
+    <jackson-version>2.13.0</jackson-version>
+    <jetty-version>9.4.44.v20210927</jetty-version>
 
     <javax-inject>1</javax-inject>
     <javax-annotation-api>1.3.2</javax-annotation-api>
 
-    <apache-commons-lang3-version>3.9</apache-commons-lang3-version>
-    <apache-commons-io-version>2.6</apache-commons-io-version>
-    <http-client-version>4.5.9</http-client-version>
+    <apache-commons-lang3-version>3.12.0</apache-commons-lang3-version>
+    <apache-commons-io-version>2.11.0</apache-commons-io-version>
+    <http-client-version>4.5.13</http-client-version>
     <indoqa-spring-version>4.1.0</indoqa-spring-version>
     <indoqa-http-proxy-version>1.0.0</indoqa-http-proxy-version>
     <indoqa-jar-in-jar-version>1.0.1</indoqa-jar-in-jar-version>
 
-    <slf4j-version>1.7.25</slf4j-version>
+    <slf4j-version>1.7.32</slf4j-version>
     <commons-logging-version>1.1.1</commons-logging-version>
-    <log4j-version>2.16.0</log4j-version>
+    <log4j-version>2.17.0</log4j-version>
 
     <junit-version>4.12</junit-version>
     <hamcrest-version>1.3</hamcrest-version>
