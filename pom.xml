@@ -23,8 +23,8 @@
 
   <parent>
     <groupId>com.indoqa</groupId>
-    <artifactId>indoqa-oss-parent</artifactId>
-    <version>6</version>
+    <artifactId>indoqa-maven-root</artifactId>
+    <version>25</version>
   </parent>
 
   <artifactId>indoqa-boot-bom</artifactId>
