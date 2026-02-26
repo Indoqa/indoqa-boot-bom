@@ -47,7 +47,7 @@
     <apache-commons-lang3-version>3.20.0</apache-commons-lang3-version>
     <apache-commons-io-version>2.21.0</apache-commons-io-version>
     <indoqa-spring-version>4.1.0</indoqa-spring-version>
-    <indoqa-http-proxy-version>2.0.0-SNAPSHOT</indoqa-http-proxy-version>
+    <indoqa-http-proxy-version>2.0.0</indoqa-http-proxy-version>
     <indoqa-jar-in-jar-version>1.0.1</indoqa-jar-in-jar-version>
 
     <slf4j-version>2.0.17</slf4j-version>
